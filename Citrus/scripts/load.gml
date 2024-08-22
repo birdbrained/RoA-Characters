@@ -36,7 +36,7 @@ sprite_change_offset("dair", 0, 0);
 sprite_change_offset("fstrong", 94, 95);
 sprite_change_offset("ustrong", 0, 0);
 sprite_change_offset("dstrong", 94, 95);
-sprite_change_offset("nspecial", 0, 0);
+sprite_change_offset("nspecial", 94, 95);
 sprite_change_offset("fspecial", 0, 0);
 sprite_change_offset("uspecial", 98, 117);
 sprite_change_offset("dspecial", 0, 0);
@@ -46,3 +46,5 @@ sprite_change_offset("hurtbox", 94, 95);
 sprite_change_offset("crouch_hurtbox", 94, 95);
 
 sprite_change_offset("plat", 0, 0);
+
+sprite_change_offset("peanut", 12, 12);
