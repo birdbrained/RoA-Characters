@@ -18,17 +18,17 @@ sprite_change_offset("landinglag", 94, 95);
 
 sprite_change_offset("parry", 94, 95);
 sprite_change_offset("roll_forward", 94, 95);
-sprite_change_offset("roll_backward", 0, 0);
-sprite_change_offset("airdodge", 0, 0);
+sprite_change_offset("roll_backward", 94, 95);
+sprite_change_offset("airdodge", 94, 95);
 sprite_change_offset("waveland", 94, 95);
-sprite_change_offset("tech", 0, 0);
+sprite_change_offset("tech", 94, 95);
 
 sprite_change_offset("jab", 94, 95);
 sprite_change_offset("dattack", 90, 89);
 sprite_change_offset("ftilt", 94, 95);
 sprite_change_offset("dtilt", 94, 95);
 sprite_change_offset("utilt", 94, 89);
-sprite_change_offset("nair", 0, 0);
+sprite_change_offset("nair", 94, 95);
 sprite_change_offset("fair", 0, 0);
 sprite_change_offset("bair", 0, 0);
 sprite_change_offset("uair", 87, 131);
