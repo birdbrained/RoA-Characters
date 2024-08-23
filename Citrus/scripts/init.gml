@@ -101,8 +101,7 @@ bubble_y = 8;
 //Citrus-specific variables
 charge_timer = 0; //How long nspecial has been charged for
 current_food = 0; //Index of food projectile, 0 = peanut, 1 = papaya cube, 2 = pizza
-#macro CITRUS_FOOD_PEANUT = 0;
-#macro CITRUS_FOOD_PAPAYA = 1;
-#macro CITRUS_FOOD_PIZZA = 2;
+food_peanut = 0;
+food_papaya = 1;
+food_pizza = 2;
 can_throw = false; //Can nspecial projectile be thrown
-will_throw = false;

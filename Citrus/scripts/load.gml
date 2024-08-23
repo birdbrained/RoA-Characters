@@ -47,4 +47,6 @@ sprite_change_offset("crouch_hurtbox", 94, 95);
 
 sprite_change_offset("plat", 0, 0);
 
-sprite_change_offset("peanut", 12, 12);
+sprite_change_offset("peanut", 10, 12);
+sprite_change_offset("papayacube", 16, 18);
+sprite_change_offset("pizza", 16, 22);
