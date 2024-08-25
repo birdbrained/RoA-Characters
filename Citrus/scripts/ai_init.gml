@@ -3,6 +3,8 @@ far_up_attacks[0] = AT_UAIR;
 far_side_attacks[0] = AT_DATTACK;
 far_side_attacks[1] = AT_NSPECIAL;
 
+far_down_attacks[0] = AT_DAIR;
+
 mid_side_attacks[0] = AT_FSTRONG;
 mid_side_attacks[1] = AT_NSPECIAL;
 

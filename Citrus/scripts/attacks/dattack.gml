@@ -3,39 +3,60 @@ set_attack_value(AT_DATTACK, AG_SPRITE, sprite_get("dattack"));
 set_attack_value(AT_DATTACK, AG_HURTBOX_SPRITE, sprite_get("dattack_hurt"));
 set_attack_value(AT_DATTACK, AG_NUM_WINDOWS, 3);
 
+dattack_strong_hitbox_lifetime = 3;
+dattack_weak_hitbox_lifetime = 9;
+
 //hitboxes
-set_num_hitboxes(AT_DATTACK, 2);
+set_num_hitboxes(AT_DATTACK, 3);
+//#1, strong initial hit
 set_hitbox_value(AT_DATTACK, 1, HG_HITBOX_TYPE, 1);
 set_hitbox_value(AT_DATTACK, 1, HG_WINDOW, 2);
-set_hitbox_value(AT_DATTACK, 1, HG_LIFETIME, 3);
+set_hitbox_value(AT_DATTACK, 1, HG_LIFETIME, dattack_strong_hitbox_lifetime);
 set_hitbox_value(AT_DATTACK, 1, HG_HITBOX_X, 38);
 set_hitbox_value(AT_DATTACK, 1, HG_HITBOX_Y, -21);
 set_hitbox_value(AT_DATTACK, 1, HG_WIDTH, 73);
 set_hitbox_value(AT_DATTACK, 1, HG_HEIGHT, 63);
 set_hitbox_value(AT_DATTACK, 1, HG_SHAPE, 2);
-set_hitbox_value(AT_DATTACK, 1, HG_PRIORITY, 1);
-set_hitbox_value(AT_DATTACK, 1, HG_DAMAGE, 6);
-set_hitbox_value(AT_DATTACK, 1, HG_ANGLE, 361);
-set_hitbox_value(AT_DATTACK, 1, HG_BASE_KNOCKBACK, 12);
-set_hitbox_value(AT_DATTACK, 1, HG_KNOCKBACK_SCALING, .3);
+set_hitbox_value(AT_DATTACK, 1, HG_PRIORITY, 2);
+set_hitbox_value(AT_DATTACK, 1, HG_DAMAGE, 8);
+set_hitbox_value(AT_DATTACK, 1, HG_ANGLE, 60);
+set_hitbox_value(AT_DATTACK, 1, HG_BASE_KNOCKBACK, 9);
+set_hitbox_value(AT_DATTACK, 1, HG_KNOCKBACK_SCALING, .6);
 set_hitbox_value(AT_DATTACK, 1, HG_DRIFT_MULTIPLIER, 1);
 set_hitbox_value(AT_DATTACK, 1, HG_SDI_MULTIPLIER, 1);
+//#2, longer weaker hitbox
 set_hitbox_value(AT_DATTACK, 2, HG_HITBOX_TYPE, 1);
 set_hitbox_value(AT_DATTACK, 2, HG_WINDOW, 3);
-set_hitbox_value(AT_DATTACK, 2, HG_LIFETIME, 6);
-set_hitbox_value(AT_DATTACK, 2, HG_WINDOW_CREATION_FRAME, 1);
+set_hitbox_value(AT_DATTACK, 2, HG_LIFETIME, dattack_weak_hitbox_lifetime);
+set_hitbox_value(AT_DATTACK, 2, HG_WINDOW_CREATION_FRAME, 0);
 set_hitbox_value(AT_DATTACK, 2, HG_HITBOX_X, 38);
 set_hitbox_value(AT_DATTACK, 2, HG_HITBOX_Y, -21);
 set_hitbox_value(AT_DATTACK, 2, HG_WIDTH, 73);
 set_hitbox_value(AT_DATTACK, 2, HG_HEIGHT, 63);
 set_hitbox_value(AT_DATTACK, 2, HG_SHAPE, 2);
-set_hitbox_value(AT_DATTACK, 2, HG_PRIORITY, 1);
-set_hitbox_value(AT_DATTACK, 2, HG_DAMAGE, 2);
-set_hitbox_value(AT_DATTACK, 2, HG_ANGLE, 361);
+set_hitbox_value(AT_DATTACK, 2, HG_PRIORITY, 2);
+set_hitbox_value(AT_DATTACK, 2, HG_DAMAGE, 5);
+set_hitbox_value(AT_DATTACK, 2, HG_ANGLE, 60);
 set_hitbox_value(AT_DATTACK, 2, HG_BASE_KNOCKBACK, 3);
 set_hitbox_value(AT_DATTACK, 2, HG_KNOCKBACK_SCALING, .15);
 set_hitbox_value(AT_DATTACK, 2, HG_DRIFT_MULTIPLIER, 1);
 set_hitbox_value(AT_DATTACK, 2, HG_SDI_MULTIPLIER, 1);
+//#3 persistant sourspot
+set_hitbox_value(AT_DATTACK, 3, HG_HITBOX_TYPE, 1);
+set_hitbox_value(AT_DATTACK, 3, HG_WINDOW, 2);
+set_hitbox_value(AT_DATTACK, 3, HG_LIFETIME, dattack_strong_hitbox_lifetime + dattack_weak_hitbox_lifetime);
+set_hitbox_value(AT_DATTACK, 3, HG_HITBOX_X, -3);
+set_hitbox_value(AT_DATTACK, 3, HG_HITBOX_Y, -26);
+set_hitbox_value(AT_DATTACK, 3, HG_WIDTH, 71);
+set_hitbox_value(AT_DATTACK, 3, HG_HEIGHT, 66);
+set_hitbox_value(AT_DATTACK, 3, HG_SHAPE, 0);
+set_hitbox_value(AT_DATTACK, 3, HG_PRIORITY, 1);
+set_hitbox_value(AT_DATTACK, 3, HG_DAMAGE, 3);
+set_hitbox_value(AT_DATTACK, 3, HG_ANGLE, 60);
+set_hitbox_value(AT_DATTACK, 3, HG_BASE_KNOCKBACK, 3);
+set_hitbox_value(AT_DATTACK, 3, HG_KNOCKBACK_SCALING, .6);
+set_hitbox_value(AT_DATTACK, 3, HG_DRIFT_MULTIPLIER, 1);
+set_hitbox_value(AT_DATTACK, 3, HG_SDI_MULTIPLIER, 1);
 
 //startup
 set_window_value(AT_DATTACK, 1, AG_WINDOW_LENGTH, 15);

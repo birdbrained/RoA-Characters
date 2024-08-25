@@ -66,7 +66,7 @@ set_hitbox_value(AT_UAIR, 3, HG_DRIFT_MULTIPLIER, 1);
 set_hitbox_value(AT_UAIR, 3, HG_SDI_MULTIPLIER, 1);
 
 //startup
-set_window_value(AT_UAIR, 1, AG_WINDOW_LENGTH, 16);
+set_window_value(AT_UAIR, 1, AG_WINDOW_LENGTH, 13);
 set_window_value(AT_UAIR, 1, AG_WINDOW_ANIM_FRAME_START, 0);
 set_window_value(AT_UAIR, 1, AG_WINDOW_ANIM_FRAMES, 3);
 //active

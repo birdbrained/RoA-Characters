@@ -37,7 +37,7 @@ set_window_value(AT_NSPECIAL, 7, AG_WINDOW_LENGTH, 14);
 set_window_value(AT_NSPECIAL, 7, AG_WINDOW_ANIM_FRAME_START, 17);
 set_window_value(AT_NSPECIAL, 7, AG_WINDOW_ANIM_FRAMES, 4);
 //cooldown
-set_window_value(AT_NSPECIAL, 8, AG_WINDOW_LENGTH, 35);
+set_window_value(AT_NSPECIAL, 8, AG_WINDOW_LENGTH, 18);
 set_window_value(AT_NSPECIAL, 8, AG_WINDOW_ANIM_FRAME_START, 21);
 set_window_value(AT_NSPECIAL, 8, AG_WINDOW_ANIM_FRAMES, 1);
 
@@ -69,6 +69,7 @@ set_hitbox_value(AT_NSPECIAL, 1, HG_PROJECTILE_ENEMY_BEHAVIOR, 0);
 set_hitbox_value(AT_NSPECIAL, 1, HG_PROJECTILE_HSPEED, 10);
 set_hitbox_value(AT_NSPECIAL, 1, HG_PROJECTILE_AIR_FRICTION, 0);
 set_hitbox_value(AT_NSPECIAL, 1, HG_PROJECTILE_GRAVITY, 0.1);
+set_hitbox_value(AT_NSPECIAL, 1, HG_PROJECTILE_IS_TRANSCENDENT, false);
 //set_hitbox_value(AT_NSPECIAL, 1, HG_HIT_SFX, sound_get("shadowball_hit"));
 //set_hitbox_value(AT_NSPECIAL, 1, HG_PROJECTILE_DESTROY_EFFECT, 1);
 //peanut
@@ -99,6 +100,7 @@ set_hitbox_value(AT_NSPECIAL, 2, HG_PROJECTILE_HSPEED, 6);
 set_hitbox_value(AT_NSPECIAL, 2, HG_PROJECTILE_VSPEED, -4);
 set_hitbox_value(AT_NSPECIAL, 2, HG_PROJECTILE_AIR_FRICTION, 0);
 set_hitbox_value(AT_NSPECIAL, 2, HG_PROJECTILE_GRAVITY, 0.3);
+set_hitbox_value(AT_NSPECIAL, 2, HG_PROJECTILE_IS_TRANSCENDENT, true);
 //set_hitbox_value(AT_NSPECIAL, 1, HG_HIT_SFX, sound_get("shadowball_hit"));
 //set_hitbox_value(AT_NSPECIAL, 1, HG_PROJECTILE_DESTROY_EFFECT, 1);
 //pizza
@@ -131,5 +133,6 @@ set_hitbox_value(AT_NSPECIAL, 3, HG_PROJECTILE_VSPEED, -10);
 set_hitbox_value(AT_NSPECIAL, 3, HG_PROJECTILE_GROUND_FRICTION, 1);
 set_hitbox_value(AT_NSPECIAL, 3, HG_PROJECTILE_AIR_FRICTION, 0);
 set_hitbox_value(AT_NSPECIAL, 3, HG_PROJECTILE_GRAVITY, 1);
+set_hitbox_value(AT_NSPECIAL, 3, HG_PROJECTILE_IS_TRANSCENDENT, true);
 //set_hitbox_value(AT_NSPECIAL, 1, HG_HIT_SFX, sound_get("shadowball_hit"));
 //set_hitbox_value(AT_NSPECIAL, 1, HG_PROJECTILE_DESTROY_EFFECT, 1);

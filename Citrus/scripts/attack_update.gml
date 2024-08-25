@@ -31,6 +31,7 @@ if (attack == AT_NSPECIAL && !hitpause)
         
         case 2: //holding peanut
             can_throw = true;
+            can_shield = true;
             // If the special button is released, throw!
             if (!special_down)
             {
@@ -41,7 +42,7 @@ if (attack == AT_NSPECIAL && !hitpause)
             else if (special_down && !shield_pressed)
             {
                 charge_timer++;
-                if (charge_timer >= 30)
+                if (charge_timer >= 10)
                 {
                     window = 3;
                 }
@@ -56,6 +57,7 @@ if (attack == AT_NSPECIAL && !hitpause)
         
         case 4: //holding papaya cube
             can_throw = true;
+            can_shield = true;
             // If the special button is released, throw!
             if (!special_down)
             {
@@ -66,7 +68,7 @@ if (attack == AT_NSPECIAL && !hitpause)
             else if (special_down && !shield_pressed)
             {
                 charge_timer++;
-                if (charge_timer >= 50)
+                if (charge_timer >= 25)
                 {
                     window = 5;
                 }
@@ -81,6 +83,7 @@ if (attack == AT_NSPECIAL && !hitpause)
         
         case 6: //holding pizza
             can_throw = true;
+            can_shield = true;
             // If the special button is released, throw!
             if (!special_down)
             {
@@ -94,6 +97,16 @@ if (attack == AT_NSPECIAL && !hitpause)
                 create_hitbox(AT_NSPECIAL, current_food + 1, x + (30 * spr_dir), y - 30);
                 can_throw = false;
             }
+            break;
+    }
+}
+else if (attack == AT_DAIR && !hitpause)
+{
+    switch (window)
+    {
+        case 2:
+            can_shield = true;
+            can_wall_jump = true;
             break;
     }
 }
