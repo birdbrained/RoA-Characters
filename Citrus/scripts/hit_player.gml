@@ -11,4 +11,5 @@ if (my_hitboxID.attack == AT_DAIR)
 	//old_hsp = hsp;
 	//old_vsp = vsp;
 	window = 5;
+	destroy_hitboxes();
 }

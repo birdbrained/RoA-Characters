@@ -123,7 +123,7 @@ set_hitbox_value(AT_NAIR, 6, HG_HITBOX_GROUP, 6);
 set_hitbox_value(AT_NAIR, 6, HG_ANGLE_FLIPPER, 4);
 
 //startup
-set_window_value(AT_NAIR, 1, AG_WINDOW_LENGTH, 9);
+set_window_value(AT_NAIR, 1, AG_WINDOW_LENGTH, 7);
 set_window_value(AT_NAIR, 1, AG_WINDOW_ANIM_FRAME_START, 0);
 set_window_value(AT_NAIR, 1, AG_WINDOW_ANIM_FRAMES, 2);
 //flaps! next 6 windows
