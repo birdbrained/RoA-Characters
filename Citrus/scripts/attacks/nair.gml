@@ -134,6 +134,8 @@ set_window_value(AT_NAIR, 2, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_NAIR, 3, AG_WINDOW_LENGTH, 3);
 set_window_value(AT_NAIR, 3, AG_WINDOW_ANIM_FRAME_START, 2);
 set_window_value(AT_NAIR, 3, AG_WINDOW_ANIM_FRAMES, 1);
+set_window_value(AT_NAIR, 3, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_NAIR, 3, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 
 set_window_value(AT_NAIR, 4, AG_WINDOW_LENGTH, 3);
 set_window_value(AT_NAIR, 4, AG_WINDOW_ANIM_FRAME_START, 1);
@@ -142,6 +144,8 @@ set_window_value(AT_NAIR, 4, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_NAIR, 5, AG_WINDOW_LENGTH, 3);
 set_window_value(AT_NAIR, 5, AG_WINDOW_ANIM_FRAME_START, 2);
 set_window_value(AT_NAIR, 5, AG_WINDOW_ANIM_FRAMES, 1);
+set_window_value(AT_NAIR, 5, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_NAIR, 5, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 
 set_window_value(AT_NAIR, 6, AG_WINDOW_LENGTH, 3);
 set_window_value(AT_NAIR, 6, AG_WINDOW_ANIM_FRAME_START, 1);
@@ -150,6 +154,8 @@ set_window_value(AT_NAIR, 6, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_NAIR, 7, AG_WINDOW_LENGTH, 3);
 set_window_value(AT_NAIR, 7, AG_WINDOW_ANIM_FRAME_START, 2);
 set_window_value(AT_NAIR, 7, AG_WINDOW_ANIM_FRAMES, 1);
+set_window_value(AT_NAIR, 7, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_NAIR, 7, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 //recovery
 set_window_value(AT_NAIR, 8, AG_WINDOW_LENGTH, 10);
 set_window_value(AT_NAIR, 8, AG_WINDOW_ANIM_FRAME_START, 3);

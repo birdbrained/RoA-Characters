@@ -61,6 +61,8 @@ set_window_value(AT_BAIR, 2, AG_WINDOW_ANIM_FRAMES, 2);
 set_window_value(AT_BAIR, 2, AG_WINDOW_VSPEED, -3);
 set_window_value(AT_BAIR, 2, AG_WINDOW_VSPEED_TYPE, 2);
 set_window_value(AT_BAIR, 2, AG_WINDOW_CUSTOM_GRAVITY, 0.8);
+set_window_value(AT_BAIR, 2, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_BAIR, 2, AG_WINDOW_SFX, asset_get("sfx_swipe_weak1"));
 //recovery
 set_window_value(AT_BAIR, 3, AG_WINDOW_LENGTH, 16);
 set_window_value(AT_BAIR, 3, AG_WINDOW_ANIM_FRAME_START, 5);

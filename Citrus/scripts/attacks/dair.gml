@@ -15,6 +15,8 @@ set_window_value(AT_DAIR, 1, AG_WINDOW_HSPEED_TYPE, 1);
 set_window_value(AT_DAIR, 1, AG_WINDOW_VSPEED, 0);
 set_window_value(AT_DAIR, 1, AG_WINDOW_VSPEED_TYPE, 1);
 set_window_value(AT_DAIR, 1, AG_WINDOW_CUSTOM_GRAVITY, 0);
+set_window_value(AT_DAIR, 1, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_DAIR, 1, AG_WINDOW_SFX, asset_get("sfx_roll"));
 //dash down
 set_window_value(AT_DAIR, 2, AG_WINDOW_LENGTH, 10000);
 set_window_value(AT_DAIR, 2, AG_WINDOW_ANIM_FRAME_START, 1);

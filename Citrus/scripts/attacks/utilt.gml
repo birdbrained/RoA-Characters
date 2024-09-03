@@ -193,6 +193,8 @@ set_window_value(AT_UTILT, 2, AG_WINDOW_HSPEED_TYPE, 2);
 set_window_value(AT_UTILT, 2, AG_WINDOW_VSPEED, -4);
 set_window_value(AT_UTILT, 2, AG_WINDOW_VSPEED_TYPE, 0);
 set_window_value(AT_UTILT, 2, AG_WINDOW_CUSTOM_GRAVITY, 0.4);
+set_window_value(AT_UTILT, 2, AG_WINDOW_HAS_SFX, 0);
+set_window_value(AT_UTILT, 2, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 
 set_window_value(AT_UTILT, 3, AG_WINDOW_LENGTH, 4);
 set_window_value(AT_UTILT, 3, AG_WINDOW_ANIM_FRAME_START, 3);
@@ -200,6 +202,8 @@ set_window_value(AT_UTILT, 3, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_UTILT, 3, AG_WINDOW_HSPEED, 0);
 set_window_value(AT_UTILT, 3, AG_WINDOW_HSPEED_TYPE, 2);
 set_window_value(AT_UTILT, 3, AG_WINDOW_CUSTOM_GRAVITY, 0.4);
+set_window_value(AT_UTILT, 3, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_UTILT, 3, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 
 set_window_value(AT_UTILT, 4, AG_WINDOW_LENGTH, 4);
 set_window_value(AT_UTILT, 4, AG_WINDOW_ANIM_FRAME_START, 2);
@@ -207,6 +211,8 @@ set_window_value(AT_UTILT, 4, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_UTILT, 4, AG_WINDOW_HSPEED, 0);
 set_window_value(AT_UTILT, 4, AG_WINDOW_HSPEED_TYPE, 2);
 set_window_value(AT_UTILT, 4, AG_WINDOW_CUSTOM_GRAVITY, 0.4);
+set_window_value(AT_UTILT, 4, AG_WINDOW_HAS_SFX, 0);
+set_window_value(AT_UTILT, 4, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 
 set_window_value(AT_UTILT, 5, AG_WINDOW_LENGTH, 4);
 set_window_value(AT_UTILT, 5, AG_WINDOW_ANIM_FRAME_START, 3);
@@ -214,6 +220,8 @@ set_window_value(AT_UTILT, 5, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_UTILT, 5, AG_WINDOW_HSPEED, 0);
 set_window_value(AT_UTILT, 5, AG_WINDOW_HSPEED_TYPE, 2);
 set_window_value(AT_UTILT, 5, AG_WINDOW_CUSTOM_GRAVITY, 0.4);
+set_window_value(AT_UTILT, 5, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_UTILT, 5, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 
 set_window_value(AT_UTILT, 6, AG_WINDOW_LENGTH, 4);
 set_window_value(AT_UTILT, 6, AG_WINDOW_ANIM_FRAME_START, 2);
@@ -221,6 +229,8 @@ set_window_value(AT_UTILT, 6, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_UTILT, 6, AG_WINDOW_HSPEED, 0);
 set_window_value(AT_UTILT, 6, AG_WINDOW_HSPEED_TYPE, 2);
 set_window_value(AT_UTILT, 6, AG_WINDOW_CUSTOM_GRAVITY, 0.4);
+set_window_value(AT_UTILT, 6, AG_WINDOW_HAS_SFX, 0);
+set_window_value(AT_UTILT, 6, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 
 set_window_value(AT_UTILT, 7, AG_WINDOW_LENGTH, 4);
 set_window_value(AT_UTILT, 7, AG_WINDOW_ANIM_FRAME_START, 3);
@@ -228,6 +238,8 @@ set_window_value(AT_UTILT, 7, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_UTILT, 7, AG_WINDOW_HSPEED, 0);
 set_window_value(AT_UTILT, 7, AG_WINDOW_HSPEED_TYPE, 2);
 set_window_value(AT_UTILT, 7, AG_WINDOW_CUSTOM_GRAVITY, 0.4);
+set_window_value(AT_UTILT, 7, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_UTILT, 7, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 
 set_window_value(AT_UTILT, 8, AG_WINDOW_LENGTH, 4);
 set_window_value(AT_UTILT, 8, AG_WINDOW_ANIM_FRAME_START, 2);
@@ -235,6 +247,8 @@ set_window_value(AT_UTILT, 8, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_UTILT, 8, AG_WINDOW_HSPEED, 0);
 set_window_value(AT_UTILT, 8, AG_WINDOW_HSPEED_TYPE, 2);
 set_window_value(AT_UTILT, 8, AG_WINDOW_CUSTOM_GRAVITY, 0.4);
+set_window_value(AT_UTILT, 8, AG_WINDOW_HAS_SFX, 0);
+set_window_value(AT_UTILT, 8, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 
 set_window_value(AT_UTILT, 9, AG_WINDOW_LENGTH, 4);
 set_window_value(AT_UTILT, 9, AG_WINDOW_ANIM_FRAME_START, 3);
@@ -242,10 +256,14 @@ set_window_value(AT_UTILT, 9, AG_WINDOW_ANIM_FRAMES, 1);
 set_window_value(AT_UTILT, 9, AG_WINDOW_HSPEED, 0);
 set_window_value(AT_UTILT, 9, AG_WINDOW_HSPEED_TYPE, 2);
 set_window_value(AT_UTILT, 9, AG_WINDOW_CUSTOM_GRAVITY, 0.4);
+set_window_value(AT_UTILT, 9, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_UTILT, 9, AG_WINDOW_SFX, asset_get("sfx_birdflap"));
 //finsher
 set_window_value(AT_UTILT, 10, AG_WINDOW_LENGTH, 8);
 set_window_value(AT_UTILT, 10, AG_WINDOW_ANIM_FRAME_START, 4);
 set_window_value(AT_UTILT, 10, AG_WINDOW_ANIM_FRAMES, 1);
+set_window_value(AT_UTILT, 10, AG_WINDOW_HAS_SFX, 1);
+set_window_value(AT_UTILT, 10, AG_WINDOW_SFX, asset_get("sfx_swipe_weak1"));
 //recovery
 set_window_value(AT_UTILT, 11, AG_WINDOW_LENGTH, 15);
 set_window_value(AT_UTILT, 11, AG_WINDOW_ANIM_FRAME_START, 5);
