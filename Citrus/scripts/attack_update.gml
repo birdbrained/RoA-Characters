@@ -110,3 +110,10 @@ else if (attack == AT_DAIR && !hitpause)
             break;
     }
 }
+else if (attack == AT_JAB && !hitpause)
+{
+    if (window == 4)
+    {
+        clear_button_buffer(PC_ATTACK_PRESSED);
+    }
+}
