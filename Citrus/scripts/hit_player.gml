@@ -11,6 +11,7 @@ if (my_hitboxID.attack == AT_DAIR)
 	//old_hsp = hsp;
 	//old_vsp = vsp;
 	window = 5;
+	move_cooldown[AT_DAIR] = 9999; // disable cheap dair combo
 	destroy_hitboxes();
 }
 else if (my_hitboxID.attack == AT_FSPECIAL && window == 3) //only grab during flash window
