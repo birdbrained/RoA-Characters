@@ -53,7 +53,7 @@ set_hitbox_value(AT_FAIR, 2, HG_SDI_MULTIPLIER, 1);
 set_hitbox_value(AT_FAIR, 3, HG_HITBOX_TYPE, 1);
 set_hitbox_value(AT_FAIR, 3, HG_WINDOW, 3);
 set_hitbox_value(AT_FAIR, 3, HG_WINDOW_CREATION_FRAME, 0);
-set_hitbox_value(AT_FAIR, 3, HG_LIFETIME, fair_sour_length);
+set_hitbox_value(AT_FAIR, 3, HG_LIFETIME, fair_sour_length / 2);
 set_hitbox_value(AT_FAIR, 3, HG_HITBOX_X, 55);
 set_hitbox_value(AT_FAIR, 3, HG_HITBOX_Y, -21);
 set_hitbox_value(AT_FAIR, 3, HG_WIDTH, 121);

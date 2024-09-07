@@ -98,6 +98,11 @@ air_dodge_sound = asset_get("sfx_quick_dodge");
 bubble_x = 0;
 bubble_y = 8;
 
+//command_grabs_2.0.md
+grabbed_player_obj = noone;    //the player object currently being grabbed.
+grabbed_player_relative_x = 0; //the relative x and y position of the grabbed player, at the point they were grabbed.
+grabbed_player_relative_y = 0;   //we store this coordinate to smoothly reposition the grabbed player later.
+
 //Citrus-specific variables
 charge_timer = 0; //How long nspecial has been charged for
 current_food = 0; //Index of food projectile, 0 = peanut, 1 = papaya cube, 2 = pizza
