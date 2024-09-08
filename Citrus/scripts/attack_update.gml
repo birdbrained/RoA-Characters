@@ -125,6 +125,11 @@ else if (attack == AT_FSPECIAL)
     	grabbed_player_relative_x = 0;
     	grabbed_player_relative_y = 0;
     }
+    //else if (window == 4 && window_timer == get_window_value(AT_FSPECIAL, 4, AG_WINDOW_LENGTH)) {
+    //    destroy_hitboxes();
+    //    attack_end();
+    //    window = 6;
+    //}
 }
 else if (attack == AT_FSPECIAL_2 && instance_exists(grabbed_player_obj)) {
 	
@@ -158,3 +163,13 @@ else if (attack == AT_FSPECIAL_2 && instance_exists(grabbed_player_obj)) {
 		//e.g. for an attack like Clairen's back throw, you might have an additional window where the grabbed player is pulled behind.
 	}
 }
+//else if (attack == AT_EXTRA_1 && !hitpause)
+//{
+    //hurtbox_spr = sprite_get("extra_1_hurt");
+    //if (window_timer == 1)
+    //{
+        //print_debug("hi");
+        //hsp = -7;
+        //vsp = -4;
+    //}
+//}
